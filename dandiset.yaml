@@ -7,9 +7,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 1286915940
+  numberOfFiles: 9
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_59729
+    name: Taeniopygia guttata - Zebra finch
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: 'Tostado-Marcos, Pablo; Arneodo, Ezequiel Matias; Gentner, Timothy Q.; Gilja,
   Vikash (2024) FALCON Benchmark B1 broadband: zebra finch RA Neuropixels recordings
   during birdsong (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001245/draft'
